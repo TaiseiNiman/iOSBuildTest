@@ -1,0 +1,526 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void ExampleNetworkDiscovery_Awake_mC3C60FB0F77CE3B3DC70F264A780EEE8C69D36D3 (void);
+extern void ExampleNetworkDiscovery_Update_m45BB035B8339AF46704B146AD2A5D1665EBC8957 (void);
+extern void ExampleNetworkDiscovery_ProcessBroadcast_m1CF447974F689BF760E4D91F2D3169F3755A3A95 (void);
+extern void ExampleNetworkDiscovery_ResponseReceived_mDF9115E50C87874E9752506746F94110248CD183 (void);
+extern void ExampleNetworkDiscovery__ctor_m22917C2797110C2A18E750610FCDF07AE1697B2F (void);
+extern void ServerFoundEvent__ctor_m232F8A5E87353FAD2F6486FAEC57B268D2DC7C30 (void);
+extern void ExampleNetworkDiscoveryHud_Awake_mA51803C11CE0E20A37938DD6F44A0DCF80DA685B (void);
+extern void ExampleNetworkDiscoveryHud_OnServerFound_mCA155D84AE7CC095BCA537EA506803DF5818E4C2 (void);
+extern void ExampleNetworkDiscoveryHud_OnGUI_m2ED03353156A60825F689F26B813A8C4A0CF750A (void);
+extern void ExampleNetworkDiscoveryHud_ClientSearchGUI_mFD9C50ABCF1CBDEBCB1BD351C83C05C13F0927D5 (void);
+extern void ExampleNetworkDiscoveryHud_ServerControlsGUI_mD30B78E493D427578FC2B9022E43B11CDB0B0021 (void);
+extern void ExampleNetworkDiscoveryHud__ctor_m061ED3475E0E30ACC15D8DE29D82E8705EF4458C (void);
+extern void NetworkManagerHud_Awake_m68648531D3625BC992E311FFD0396834649E0F3D (void);
+extern void NetworkManagerHud_OnGUI_m0C3156C4D9413E2730C4C090E5088401596DFF08 (void);
+extern void NetworkManagerHud_DrawConnectGUI_mBDD0933A16DE833471AEAA04E90CF80602DEAF78 (void);
+extern void NetworkManagerHud_DrawStatusGUI_mA600A14591C68EF48A88E7BBF5969D2EB4125817 (void);
+extern void NetworkManagerHud_IsRunning_mB56269B0003C0BB8802867A1F416529DC2F56515 (void);
+extern void NetworkManagerHud__ctor_m0AECB21E903D779D570E04347DB932CDAD97E40A (void);
+extern void ClientNetworkAnimator_Awake_m0166395FE78BDAC17E5383851CD12C00B40C4D81 (void);
+extern void ClientNetworkAnimator_OnNetworkSpawn_m4F59EFA7FB7BF4455102E9659A64C82535A41D00 (void);
+extern void ClientNetworkAnimator_SubmitAnimStateServerRpc_mECB1B96D5DC02DB009F92D46BDCC8F0BFD9C1F7C (void);
+extern void ClientNetworkAnimator_FixedUpdate_mF1E184AC6D80D7B7B847073AB21FAF08FB620A12 (void);
+extern void ClientNetworkAnimator_SendAnimStateClientRpc_mA3412693509120CE83418D952C99DBE6094F9A9D (void);
+extern void ClientNetworkAnimator_SendAnimTriggerClientRpc_m78ECE5C3E534CD84FABF8B8D8C96C1FD5A49735C (void);
+extern void ClientNetworkAnimator_SetTrigger_m3B61AE95B86A608C267847AD059442EA409E7FB3 (void);
+extern void ClientNetworkAnimator_SubmitAnimTriggerServerRpc_m5BB62E834FF485049F678B9E4E0E5BC77EE8B9AA (void);
+extern void ClientNetworkAnimator_get_Animator_m6D73002B5047CD97B5989AC8BDF7D7C072B67947 (void);
+extern void ClientNetworkAnimator_set_Animator_mBCFF063453D3730BF59B280C14F2CB3AEDFECC6A (void);
+extern void ClientNetworkAnimator_OnDestroy_mE084FF660E420E1D11873C75B0C3E5CAFFB20577 (void);
+extern void ClientNetworkAnimator_OnNetworkDespawn_m941F7611998262C1444EEFBBF385762EDA157CB8 (void);
+extern void ClientNetworkAnimator_CheckAnimStateChanged_mE046507EAB9FDB73DE38AD2D70B02630B39F70F8 (void);
+extern void ClientNetworkAnimator_WriteParameters_mA7E430348F73796C96ABF1C7197F6631432C7C38 (void);
+extern void ClientNetworkAnimator_ReadParameters_mB6E21C3A2D67C53065D8C3E943B1E11DB29A8AD7 (void);
+extern void ClientNetworkAnimator_SetTrigger_mE90869D017226D577932A70DECE578B35A0EE39D (void);
+extern void ClientNetworkAnimator_ResetTrigger_m064D2009B032445771A0E62184616C47C2C88241 (void);
+extern void ClientNetworkAnimator_ResetTrigger_mF0F75337FB7E431C7215789E03D273E2203D590A (void);
+extern void ClientNetworkAnimator__ctor_m1DB20CB4D21B8317282A12FBC7AEB5CDAB70B5AA (void);
+extern void ClientNetworkAnimator__cctor_m773ED32B43544D18DABFF4E05CF6E6C4CD494DD0 (void);
+extern void ClientNetworkAnimator___initializeVariables_m71399C2D665C7086AE6E34F35B291AD802B480CE (void);
+extern void ClientNetworkAnimator_InitializeRPCS_ClientNetworkAnimator_mB90EF70F497C743FD15E8916203900C7E2404C3D (void);
+extern void ClientNetworkAnimator___rpc_handler_239823467_mF149A7B828D1B346C2BBAC4FA608E4F03B426277 (void);
+extern void ClientNetworkAnimator___rpc_handler_1666337019_m055F205334BDC129D44555C17F72B6F0CAC053BB (void);
+extern void ClientNetworkAnimator___rpc_handler_1317250382_m7601DE68F9C7D180BC60CFC9941E6A09EE74AEBB (void);
+extern void ClientNetworkAnimator___rpc_handler_1068556453_m5477D6AFDF99F4D89596539AD344B1FAA1E44EF6 (void);
+extern void ClientNetworkAnimator___getTypeName_mB265F62D9B0DA02930B6447E96A2C3CF710E9871 (void);
+extern void AnimationParamEnumWrapper__cctor_m060661C5D88D679CB35D497793D67A5AAF2A7961 (void);
+extern void NetworkObjectPool_get_Singleton_m808580C55A39B373A74F49FC15D8B83E8165B20A (void);
+extern void NetworkObjectPool_Awake_m1C98C7BB7CCEA2E4605A142E073F5579EA8515DC (void);
+extern void NetworkObjectPool_OnNetworkSpawn_m09C56439AE5672E19FC7B5AAF8A30C44D75CD2A0 (void);
+extern void NetworkObjectPool_OnNetworkDespawn_mF3909461DB6CB40636545E0D416FABB333A83B14 (void);
+extern void NetworkObjectPool_OnDestroy_m50F7B2635CE34E024F84193D833C388F6ED4E780 (void);
+extern void NetworkObjectPool_OnValidate_mADF5B3BC8CEB0224519E672366F8301EBE076B65 (void);
+extern void NetworkObjectPool_GetNetworkObject_m03AA8234A930C1D8CC1511E20A51BBFD27E2A081 (void);
+extern void NetworkObjectPool_GetNetworkObject_m2CA7F6EBD37F5B13F2BB770073C6D235372AA069 (void);
+extern void NetworkObjectPool_ReturnNetworkObject_m92C00DCA30763CA947E03A250F72D785067B0CF7 (void);
+extern void NetworkObjectPool_AddPrefab_mE17F95429831103D6E6F312D372D06CE7E6CCE1D (void);
+extern void NetworkObjectPool_RegisterPrefabInternal_m862C31A7325E67C730C5B44BC0744679C93ECA83 (void);
+extern void NetworkObjectPool_CreateInstance_m9E9B1C5E370603A8DD26300E2639C4A4D86A721D (void);
+extern void NetworkObjectPool_GetNetworkObjectInternal_m4D9EE85368F4272F0D76F6273F6ECD67B06B3148 (void);
+extern void NetworkObjectPool_InitializePool_m0E61B4B039B4F03D7A519E55B5CE1EA05F82A1C4 (void);
+extern void NetworkObjectPool_ClearPool_m7F313FC03C35746F2A57F549D53BECDED2D34E66 (void);
+extern void NetworkObjectPool__ctor_mE16C47B1930B291F1ADEC47E860A684927037C9E (void);
+extern void NetworkObjectPool___initializeVariables_m9288A742071EFAF8861DCEFB7BAC95FE2F100509 (void);
+extern void NetworkObjectPool___getTypeName_mF20F23A993F126374E533F8BEC2AE2ADB5BA7356 (void);
+extern void PooledPrefabInstanceHandler__ctor_m8EA118E20B99B3793BC36039CF9898B6EC6A7BCF (void);
+extern void PooledPrefabInstanceHandler_Unity_Netcode_INetworkPrefabInstanceHandler_Instantiate_m4559C7F7A80ABE14588EC6965898A4175FAFF7A9 (void);
+extern void PooledPrefabInstanceHandler_Unity_Netcode_INetworkPrefabInstanceHandler_Destroy_m93E70C4D2F762C3DC74B78F85E7768821DFC9BE3 (void);
+extern void LagCompensationManager_get_Singleton_mEECF68B2160C8CC74F94585C42C9CE4A5ABA1387 (void);
+extern void LagCompensationManager_set_Singleton_m1C04BF6E3CA3236F73514E328AF55B428CAC8EAF (void);
+extern void LagCompensationManager_Awake_mC7CAEA0A8E402F86779E7CECDB945CE1152B5DFD (void);
+extern void LagCompensationManager_Update_mEBA718D8BC2F00114F0DCFFBD789487B92C0FCCB (void);
+extern void LagCompensationManager_Simulate_m5787A0F3F733BC01617CFD3979DA0BF80CFB951D (void);
+extern void LagCompensationManager_Simulate_m825521DC66F29DEE2C54999062BBF8DD1B44D626 (void);
+extern void LagCompensationManager_Simulate_m93BE6203051F2EE2C2BF373B90E63F5DAC4CFFD6 (void);
+extern void LagCompensationManager_AddFrames_mB79CE2B2ECDA62AA42EA1D84861138FA528AAACA (void);
+extern void LagCompensationManager_MaxQueuePoints_m267FDD947B2A7FB4C236EF139A22633B0DBD5B14 (void);
+extern void LagCompensationManager__ctor_m7BFDD73E466EB2E7D0E0A4E9DC7BA033A8177EB9 (void);
+extern void TrackedObject_Start_mA66E879E1C41B8CDBB5E66AE08B195ABDDED0DE2 (void);
+extern void TrackedObject_get_TotalPoints_m853B6EFF812C39D3C132D5BF54DA9C378B722779 (void);
+extern void TrackedObject_get_AvgTimeBetweenPointsMs_m76125602973EA62195C307737D1038FAE9669C2F (void);
+extern void TrackedObject_get_TotalTimeHistory_m6F2BED27A6C189DEC79D0187075C5211079A6B67 (void);
+extern void TrackedObject_ReverseTransform_m1F72667F51DDF48D1CF84471F15335A35D25F395 (void);
+extern void TrackedObject_ResetStateTransform_m2DD07B1A4D140B838485B62C957EFE7BA0F31C31 (void);
+extern void TrackedObject_OnDestroy_mAA821E6E46943B2780CD7927D321A3E416EA0E88 (void);
+extern void TrackedObject_AddFrame_mE52AAFA7240FE401D1AABD105808D3E224558DAB (void);
+extern void TrackedObject__ctor_mBF722F3D161C6F95F9810C3294A0FC548A2CA101 (void);
+extern void NetworkVariableSerializationHelper_InitializeSerialization_mC5C2DB3FD7230A7AE4EE69A9D2446187AC552C87 (void);
+static Il2CppMethodPointer s_methodPointers[123] = 
+{
+	NULL,
+	NULL,
+	ExampleNetworkDiscovery_Awake_mC3C60FB0F77CE3B3DC70F264A780EEE8C69D36D3,
+	ExampleNetworkDiscovery_Update_m45BB035B8339AF46704B146AD2A5D1665EBC8957,
+	ExampleNetworkDiscovery_ProcessBroadcast_m1CF447974F689BF760E4D91F2D3169F3755A3A95,
+	ExampleNetworkDiscovery_ResponseReceived_mDF9115E50C87874E9752506746F94110248CD183,
+	ExampleNetworkDiscovery__ctor_m22917C2797110C2A18E750610FCDF07AE1697B2F,
+	ServerFoundEvent__ctor_m232F8A5E87353FAD2F6486FAEC57B268D2DC7C30,
+	ExampleNetworkDiscoveryHud_Awake_mA51803C11CE0E20A37938DD6F44A0DCF80DA685B,
+	ExampleNetworkDiscoveryHud_OnServerFound_mCA155D84AE7CC095BCA537EA506803DF5818E4C2,
+	ExampleNetworkDiscoveryHud_OnGUI_m2ED03353156A60825F689F26B813A8C4A0CF750A,
+	ExampleNetworkDiscoveryHud_ClientSearchGUI_mFD9C50ABCF1CBDEBCB1BD351C83C05C13F0927D5,
+	ExampleNetworkDiscoveryHud_ServerControlsGUI_mD30B78E493D427578FC2B9022E43B11CDB0B0021,
+	ExampleNetworkDiscoveryHud__ctor_m061ED3475E0E30ACC15D8DE29D82E8705EF4458C,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NetworkManagerHud_Awake_m68648531D3625BC992E311FFD0396834649E0F3D,
+	NetworkManagerHud_OnGUI_m0C3156C4D9413E2730C4C090E5088401596DFF08,
+	NetworkManagerHud_DrawConnectGUI_mBDD0933A16DE833471AEAA04E90CF80602DEAF78,
+	NetworkManagerHud_DrawStatusGUI_mA600A14591C68EF48A88E7BBF5969D2EB4125817,
+	NetworkManagerHud_IsRunning_mB56269B0003C0BB8802867A1F416529DC2F56515,
+	NetworkManagerHud__ctor_m0AECB21E903D779D570E04347DB932CDAD97E40A,
+	ClientNetworkAnimator_Awake_m0166395FE78BDAC17E5383851CD12C00B40C4D81,
+	ClientNetworkAnimator_OnNetworkSpawn_m4F59EFA7FB7BF4455102E9659A64C82535A41D00,
+	ClientNetworkAnimator_SubmitAnimStateServerRpc_mECB1B96D5DC02DB009F92D46BDCC8F0BFD9C1F7C,
+	ClientNetworkAnimator_FixedUpdate_mF1E184AC6D80D7B7B847073AB21FAF08FB620A12,
+	ClientNetworkAnimator_SendAnimStateClientRpc_mA3412693509120CE83418D952C99DBE6094F9A9D,
+	ClientNetworkAnimator_SendAnimTriggerClientRpc_m78ECE5C3E534CD84FABF8B8D8C96C1FD5A49735C,
+	ClientNetworkAnimator_SetTrigger_m3B61AE95B86A608C267847AD059442EA409E7FB3,
+	ClientNetworkAnimator_SubmitAnimTriggerServerRpc_m5BB62E834FF485049F678B9E4E0E5BC77EE8B9AA,
+	ClientNetworkAnimator_get_Animator_m6D73002B5047CD97B5989AC8BDF7D7C072B67947,
+	ClientNetworkAnimator_set_Animator_mBCFF063453D3730BF59B280C14F2CB3AEDFECC6A,
+	ClientNetworkAnimator_OnDestroy_mE084FF660E420E1D11873C75B0C3E5CAFFB20577,
+	ClientNetworkAnimator_OnNetworkDespawn_m941F7611998262C1444EEFBBF385762EDA157CB8,
+	ClientNetworkAnimator_CheckAnimStateChanged_mE046507EAB9FDB73DE38AD2D70B02630B39F70F8,
+	ClientNetworkAnimator_WriteParameters_mA7E430348F73796C96ABF1C7197F6631432C7C38,
+	ClientNetworkAnimator_ReadParameters_mB6E21C3A2D67C53065D8C3E943B1E11DB29A8AD7,
+	ClientNetworkAnimator_SetTrigger_mE90869D017226D577932A70DECE578B35A0EE39D,
+	ClientNetworkAnimator_ResetTrigger_m064D2009B032445771A0E62184616C47C2C88241,
+	ClientNetworkAnimator_ResetTrigger_mF0F75337FB7E431C7215789E03D273E2203D590A,
+	ClientNetworkAnimator__ctor_m1DB20CB4D21B8317282A12FBC7AEB5CDAB70B5AA,
+	ClientNetworkAnimator__cctor_m773ED32B43544D18DABFF4E05CF6E6C4CD494DD0,
+	ClientNetworkAnimator___initializeVariables_m71399C2D665C7086AE6E34F35B291AD802B480CE,
+	ClientNetworkAnimator_InitializeRPCS_ClientNetworkAnimator_mB90EF70F497C743FD15E8916203900C7E2404C3D,
+	ClientNetworkAnimator___rpc_handler_239823467_mF149A7B828D1B346C2BBAC4FA608E4F03B426277,
+	ClientNetworkAnimator___rpc_handler_1666337019_m055F205334BDC129D44555C17F72B6F0CAC053BB,
+	ClientNetworkAnimator___rpc_handler_1317250382_m7601DE68F9C7D180BC60CFC9941E6A09EE74AEBB,
+	ClientNetworkAnimator___rpc_handler_1068556453_m5477D6AFDF99F4D89596539AD344B1FAA1E44EF6,
+	ClientNetworkAnimator___getTypeName_mB265F62D9B0DA02930B6447E96A2C3CF710E9871,
+	NULL,
+	NULL,
+	AnimationParamEnumWrapper__cctor_m060661C5D88D679CB35D497793D67A5AAF2A7961,
+	NetworkObjectPool_get_Singleton_m808580C55A39B373A74F49FC15D8B83E8165B20A,
+	NetworkObjectPool_Awake_m1C98C7BB7CCEA2E4605A142E073F5579EA8515DC,
+	NetworkObjectPool_OnNetworkSpawn_m09C56439AE5672E19FC7B5AAF8A30C44D75CD2A0,
+	NetworkObjectPool_OnNetworkDespawn_mF3909461DB6CB40636545E0D416FABB333A83B14,
+	NetworkObjectPool_OnDestroy_m50F7B2635CE34E024F84193D833C388F6ED4E780,
+	NetworkObjectPool_OnValidate_mADF5B3BC8CEB0224519E672366F8301EBE076B65,
+	NetworkObjectPool_GetNetworkObject_m03AA8234A930C1D8CC1511E20A51BBFD27E2A081,
+	NetworkObjectPool_GetNetworkObject_m2CA7F6EBD37F5B13F2BB770073C6D235372AA069,
+	NetworkObjectPool_ReturnNetworkObject_m92C00DCA30763CA947E03A250F72D785067B0CF7,
+	NetworkObjectPool_AddPrefab_mE17F95429831103D6E6F312D372D06CE7E6CCE1D,
+	NetworkObjectPool_RegisterPrefabInternal_m862C31A7325E67C730C5B44BC0744679C93ECA83,
+	NetworkObjectPool_CreateInstance_m9E9B1C5E370603A8DD26300E2639C4A4D86A721D,
+	NetworkObjectPool_GetNetworkObjectInternal_m4D9EE85368F4272F0D76F6273F6ECD67B06B3148,
+	NetworkObjectPool_InitializePool_m0E61B4B039B4F03D7A519E55B5CE1EA05F82A1C4,
+	NetworkObjectPool_ClearPool_m7F313FC03C35746F2A57F549D53BECDED2D34E66,
+	NetworkObjectPool__ctor_mE16C47B1930B291F1ADEC47E860A684927037C9E,
+	NetworkObjectPool___initializeVariables_m9288A742071EFAF8861DCEFB7BAC95FE2F100509,
+	NetworkObjectPool___getTypeName_mF20F23A993F126374E533F8BEC2AE2ADB5BA7356,
+	PooledPrefabInstanceHandler__ctor_m8EA118E20B99B3793BC36039CF9898B6EC6A7BCF,
+	PooledPrefabInstanceHandler_Unity_Netcode_INetworkPrefabInstanceHandler_Instantiate_m4559C7F7A80ABE14588EC6965898A4175FAFF7A9,
+	PooledPrefabInstanceHandler_Unity_Netcode_INetworkPrefabInstanceHandler_Destroy_m93E70C4D2F762C3DC74B78F85E7768821DFC9BE3,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	LagCompensationManager_get_Singleton_mEECF68B2160C8CC74F94585C42C9CE4A5ABA1387,
+	LagCompensationManager_set_Singleton_m1C04BF6E3CA3236F73514E328AF55B428CAC8EAF,
+	LagCompensationManager_Awake_mC7CAEA0A8E402F86779E7CECDB945CE1152B5DFD,
+	LagCompensationManager_Update_mEBA718D8BC2F00114F0DCFFBD789487B92C0FCCB,
+	LagCompensationManager_Simulate_m5787A0F3F733BC01617CFD3979DA0BF80CFB951D,
+	LagCompensationManager_Simulate_m825521DC66F29DEE2C54999062BBF8DD1B44D626,
+	LagCompensationManager_Simulate_m93BE6203051F2EE2C2BF373B90E63F5DAC4CFFD6,
+	LagCompensationManager_AddFrames_mB79CE2B2ECDA62AA42EA1D84861138FA528AAACA,
+	LagCompensationManager_MaxQueuePoints_m267FDD947B2A7FB4C236EF139A22633B0DBD5B14,
+	LagCompensationManager__ctor_m7BFDD73E466EB2E7D0E0A4E9DC7BA033A8177EB9,
+	TrackedObject_Start_mA66E879E1C41B8CDBB5E66AE08B195ABDDED0DE2,
+	TrackedObject_get_TotalPoints_m853B6EFF812C39D3C132D5BF54DA9C378B722779,
+	TrackedObject_get_AvgTimeBetweenPointsMs_m76125602973EA62195C307737D1038FAE9669C2F,
+	TrackedObject_get_TotalTimeHistory_m6F2BED27A6C189DEC79D0187075C5211079A6B67,
+	TrackedObject_ReverseTransform_m1F72667F51DDF48D1CF84471F15335A35D25F395,
+	TrackedObject_ResetStateTransform_m2DD07B1A4D140B838485B62C957EFE7BA0F31C31,
+	TrackedObject_OnDestroy_mAA821E6E46943B2780CD7927D321A3E416EA0E88,
+	TrackedObject_AddFrame_mE52AAFA7240FE401D1AABD105808D3E224558DAB,
+	TrackedObject__ctor_mBF722F3D161C6F95F9810C3294A0FC548A2CA101,
+	NetworkVariableSerializationHelper_InitializeSerialization_mC5C2DB3FD7230A7AE4EE69A9D2446187AC552C87,
+};
+static const int32_t s_InvokerIndices[123] = 
+{
+	0,
+	0,
+	6248,
+	6248,
+	1041,
+	2741,
+	6248,
+	6248,
+	6248,
+	2741,
+	6248,
+	6248,
+	6248,
+	6248,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6248,
+	6248,
+	6248,
+	6248,
+	3611,
+	6248,
+	6248,
+	6248,
+	2849,
+	6248,
+	2848,
+	2850,
+	2486,
+	2851,
+	6134,
+	5015,
+	6248,
+	6248,
+	994,
+	4953,
+	4952,
+	5015,
+	5015,
+	4978,
+	6248,
+	9046,
+	6248,
+	9046,
+	7735,
+	7735,
+	7735,
+	7735,
+	6134,
+	0,
+	0,
+	9046,
+	9007,
+	6248,
+	6248,
+	6248,
+	6248,
+	6248,
+	4443,
+	1202,
+	2751,
+	2745,
+	2745,
+	4443,
+	1202,
+	6248,
+	6248,
+	6248,
+	6248,
+	6134,
+	2751,
+	1239,
+	5015,
+	0,
+	0,
+	0,
+	0,
+	0,
+	9007,
+	8860,
+	6248,
+	6248,
+	2790,
+	1493,
+	2825,
+	6248,
+	6092,
+	6248,
+	6248,
+	6092,
+	6183,
+	6183,
+	5061,
+	6248,
+	6248,
+	6248,
+	6248,
+	9046,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[8] = 
+{
+	{ 0x02000007, { 4, 24 } },
+	{ 0x02000009, { 28, 3 } },
+	{ 0x0200000A, { 31, 15 } },
+	{ 0x0200000B, { 46, 10 } },
+	{ 0x02000016, { 65, 4 } },
+	{ 0x06000002, { 0, 4 } },
+	{ 0x0600004B, { 56, 5 } },
+	{ 0x0600004C, { 61, 4 } },
+};
+extern const uint32_t g_rgctx_BufferSerializer_1_t90A24B6E2EE2D8BC9F4CD1E616F8435EB5F80E26;
+extern const uint32_t g_rgctx_BufferSerializer_1_SerializeValue_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m635813FCFA1C1595C1366A7EAFE69BA1C48D3883;
+extern const uint32_t g_rgctx_BufferSerializer_1_t90A24B6E2EE2D8BC9F4CD1E616F8435EB5F80E26;
+extern const uint32_t g_rgctx_BufferSerializer_1_SerializeValue_mF5A41BC5E4BFF722097EE4D4C60A5D812184FA8D;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_t57EADFA6B05B59BB847841EA3DBBEACEAAF38E22;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_StopDiscovery_m7BB492F61E152D40BD27673462D793ECCB3098C9;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_get_IsClient_m4883B4A27BFDB2AF393094AF97BE02A7577EE092;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_WriteHeader_m205A0678A22AF2AB5C983384B34973D005F72438;
+extern const uint32_t g_rgctx_MessageType_t1304ADF795DB610FD2962D7A43464E8842BFDFFB;
+extern const uint32_t g_rgctx_TBroadCast_t5368A8767186DEEBF331E022DD60F4D90252F304;
+extern const uint32_t g_rgctx_FastBufferWriter_WriteNetworkSerializable_TisTBroadCast_t5368A8767186DEEBF331E022DD60F4D90252F304_m91D973F9CA1B81D3607A8B9C29F1AC89252D4B52;
+extern const uint32_t g_rgctx_TBroadCastU26_tEE38204F8E090D561B2028ABF984956A036D7499;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_StartDiscovery_m9357D39B3D82C8822CB6A5C2B4322A1A670C66D7;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_set_IsClient_mA8F7DAAD1590AA4578AD477E76D6F8BF0F1508DA;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_set_IsServer_m614F20A2E53B3774712EAE83A7DE229AAA0E0875;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_set_IsRunning_m99E64218EACA0CE7DC9A5F3B48D8FFE42A59EFDD;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_ReceiveResponseAsync_m877EAD70C9E5529F68AC7CF33FAB575F41798848;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_ReceiveBroadcastAsync_m41ED7C6E08C5F5A1400047775038E5D45C3A6D30;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_ListenAsync_m1D4C6CF6AEE3BF9DF38672C27BD9D6E1AA9935CC;
+extern const uint32_t g_rgctx_U3CListenAsyncU3Ed__25_t3DC79F3D72FBC7ADF35AA50733D15BF1C4EA1C91;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CListenAsyncU3Ed__25_t3DC79F3D72FBC7ADF35AA50733D15BF1C4EA1C91_m6FA866CA9E70FD6392D1AF7ACB7E61ECAF39ED0A;
+extern const uint32_t g_rgctx_U3CListenAsyncU3Ed__25U26_tF985C03E9AA523D1625C2AB34ED39E1EC3A4AD39;
+extern const uint32_t g_rgctx_U3CReceiveResponseAsyncU3Ed__26_tB428DF7305A2890C5F8EC3287F52BD6E595A7659;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CReceiveResponseAsyncU3Ed__26_tB428DF7305A2890C5F8EC3287F52BD6E595A7659_m580F5CAA504286A9FA226C4DEB4640CD22898E4E;
+extern const uint32_t g_rgctx_U3CReceiveResponseAsyncU3Ed__26U26_t766C8FFD624590E2C0F257EFD4D839BB08C9D726;
+extern const uint32_t g_rgctx_U3CReceiveBroadcastAsyncU3Ed__27_tB8BE6E7118C2E4765B175EDC3ECA12FE2AD94DB6;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CReceiveBroadcastAsyncU3Ed__27_tB8BE6E7118C2E4765B175EDC3ECA12FE2AD94DB6_m7C89B5455F51836427A418707B3CC16729461816;
+extern const uint32_t g_rgctx_U3CReceiveBroadcastAsyncU3Ed__27U26_t507388EBC07CBE1F55A00863BDF96F4A80617228;
+extern const uint32_t g_rgctx_U3CListenAsyncU3Ed__25_t9A68CE3A274DCF69AB861FEE1642D1FDE7EA83AF;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CListenAsyncU3Ed__25_t9A68CE3A274DCF69AB861FEE1642D1FDE7EA83AF_mB1225D41777BFA91F09A13AC6BB134F84BF9CD26;
+extern const uint32_t g_rgctx_U3CListenAsyncU3Ed__25U26_t36BAAAF3C3118E4740B275CD6DFB7D97D558FBC7;
+extern const uint32_t g_rgctx_U3CReceiveBroadcastAsyncU3Ed__27_t10A63B6C41C741CFC4A09AC34B84DB21F7EA9CFF;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_t1BCA473F3DB899C4A1401640BA06DB71EF2CBB3B;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tA5F6339168CD98D4324E4938379288C303ABF23A_TisU3CReceiveBroadcastAsyncU3Ed__27_t10A63B6C41C741CFC4A09AC34B84DB21F7EA9CFF_mA7DB334F95BBCE42745D900ADF348940AEF77666;
+extern const uint32_t g_rgctx_U3CReceiveBroadcastAsyncU3Ed__27U26_t928EA65EAF0AD8ECED78FC6CFD1E09EC60606295;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_ReadAndCheckHeader_m92F0F1BACC2D8DFFC9A11F81F707CDE745C1DF17;
+extern const uint32_t g_rgctx_MessageType_t383C73FEAA99E329DAE3245E4D1880F5BEB76536;
+extern const uint32_t g_rgctx_FastBufferReader_ReadNetworkSerializable_TisTBroadCast_tB3777C6881B8F28B18285E02CEC31F435748D767_mBE784F922A81A8A781260BD0ABFFFBD16E585B6B;
+extern const uint32_t g_rgctx_TBroadCastU26_tAF1C42213BF651236219D93983EB22E8E8C99332;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_ProcessBroadcast_m551B9ACB4D6BAB42ABC42BF39743EE22ACE3BE7F;
+extern const uint32_t g_rgctx_TBroadCast_tB3777C6881B8F28B18285E02CEC31F435748D767;
+extern const uint32_t g_rgctx_TResponseU26_t7579AB60A20ED86DC10444E828AF15C92BC59AA8;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_WriteHeader_m7FF98B0BCEC5A35C69DD467E0D729D2BF92AA936;
+extern const uint32_t g_rgctx_FastBufferWriter_WriteNetworkSerializable_TisTResponse_tD34E46FC3A6F44BDE311215F49C6E7018A6F8780_m70DD03FCD19DFFA90589F7CD94B644C4D06253FF;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t6207F4E776722AC1BA32517028D30E6E3071F48E_TisU3CReceiveBroadcastAsyncU3Ed__27_t10A63B6C41C741CFC4A09AC34B84DB21F7EA9CFF_m32972BBEF18C73A931B3E6DFD5F8A005CCD28CB8;
+extern const uint32_t g_rgctx_TResponse_tD34E46FC3A6F44BDE311215F49C6E7018A6F8780;
+extern const uint32_t g_rgctx_U3CReceiveResponseAsyncU3Ed__26_t36FA9966E01018A50EF90AE8DF562CC14D43072F;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_t9FEB08F5FDFCA0D08855DC605E599E053FBDF1E0;
+extern const uint32_t g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tA5F6339168CD98D4324E4938379288C303ABF23A_TisU3CReceiveResponseAsyncU3Ed__26_t36FA9966E01018A50EF90AE8DF562CC14D43072F_m7830F04B58EEBB81AC26A5BEE8EEB8DC68ECEA9F;
+extern const uint32_t g_rgctx_U3CReceiveResponseAsyncU3Ed__26U26_t1D1187B762CEDAF6EF33F958EB779926A42474FB;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_ReadAndCheckHeader_m596A60786432159F0A5F692B2E0C6C58D905A5EA;
+extern const uint32_t g_rgctx_MessageType_t4C29E8B829FB8899073D2B25B87370AF9B768A7B;
+extern const uint32_t g_rgctx_FastBufferReader_ReadNetworkSerializable_TisTResponse_tECFA878A9B74E40DAE0A16B096FFDB2439507D8C_m61E9230FB26906CF06FD672A73823756A291CDE3;
+extern const uint32_t g_rgctx_TResponseU26_t2526E0DD55AECFD9220D649BC5DCC9884A1BE864;
+extern const uint32_t g_rgctx_NetworkDiscovery_2_ResponseReceived_mC80F041BBB072715FB1D22F129EAE1AE2D27512D;
+extern const uint32_t g_rgctx_TResponse_tECFA878A9B74E40DAE0A16B096FFDB2439507D8C;
+extern const uint32_t g_rgctx_BufferSerializer_1_t82C02169E4D2A7BA9D74FAC7F9DFE940295233D3;
+extern const uint32_t g_rgctx_BufferSerializer_1_SerializeValue_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mA0C0A56167C2DA60C296BB000685C872247250BB;
+extern const uint32_t g_rgctx_BufferSerializer_1_t82C02169E4D2A7BA9D74FAC7F9DFE940295233D3;
+extern const uint32_t g_rgctx_BufferSerializer_1_SerializeValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mFD7CACC8033A35A1D991CE6613F6DBF7B61F08EF;
+extern const uint32_t g_rgctx_BufferSerializer_1_SerializeValue_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m6EF37A7435796BEACEFECC17918BF4C141ABCB44;
+extern const uint32_t g_rgctx_BufferSerializer_1_tC04D5DEA4A2A0F439098DB5FB8C5F61C75A9FE5D;
+extern const uint32_t g_rgctx_BufferSerializer_1_SerializeValue_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mE2346B6665F74AFEFF6DCD8E9BD48E87C4A8443F;
+extern const uint32_t g_rgctx_BufferSerializer_1_tC04D5DEA4A2A0F439098DB5FB8C5F61C75A9FE5D;
+extern const uint32_t g_rgctx_BufferSerializer_1_SerializeValue_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m8FB1EF4AC0D965D848D2A57D19CF9E0C9BB64B0C;
+extern const uint32_t g_rgctx_FixedQueue_1_t3FD6F46EBF1AD94E17669D8E6AFB1AD3C5A32E50;
+extern const uint32_t g_rgctx_TU5BU5D_tEA90C89013DDDEFB1A6936E63B9C1F26BC62CEE7;
+extern const uint32_t g_rgctx_TU5BU5D_tEA90C89013DDDEFB1A6936E63B9C1F26BC62CEE7;
+extern const uint32_t g_rgctx_T_tBFFAAEF9CF15C79568CDFCC1C52104EFB50C288E;
+static const Il2CppRGCTXDefinition s_rgctxValues[69] = 
+{
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_BufferSerializer_1_t90A24B6E2EE2D8BC9F4CD1E616F8435EB5F80E26 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_BufferSerializer_1_SerializeValue_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_m635813FCFA1C1595C1366A7EAFE69BA1C48D3883 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_BufferSerializer_1_t90A24B6E2EE2D8BC9F4CD1E616F8435EB5F80E26 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_BufferSerializer_1_SerializeValue_mF5A41BC5E4BFF722097EE4D4C60A5D812184FA8D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_NetworkDiscovery_2_t57EADFA6B05B59BB847841EA3DBBEACEAAF38E22 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NetworkDiscovery_2_StopDiscovery_m7BB492F61E152D40BD27673462D793ECCB3098C9 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NetworkDiscovery_2_get_IsClient_m4883B4A27BFDB2AF393094AF97BE02A7577EE092 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NetworkDiscovery_2_WriteHeader_m205A0678A22AF2AB5C983384B34973D005F72438 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_MessageType_t1304ADF795DB610FD2962D7A43464E8842BFDFFB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TBroadCast_t5368A8767186DEEBF331E022DD60F4D90252F304 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_FastBufferWriter_WriteNetworkSerializable_TisTBroadCast_t5368A8767186DEEBF331E022DD60F4D90252F304_m91D973F9CA1B81D3607A8B9C29F1AC89252D4B52 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TBroadCastU26_tEE38204F8E090D561B2028ABF984956A036D7499 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NetworkDiscovery_2_StartDiscovery_m9357D39B3D82C8822CB6A5C2B4322A1A670C66D7 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NetworkDiscovery_2_set_IsClient_mA8F7DAAD1590AA4578AD477E76D6F8BF0F1508DA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NetworkDiscovery_2_set_IsServer_m614F20A2E53B3774712EAE83A7DE229AAA0E0875 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NetworkDiscovery_2_set_IsRunning_m99E64218EACA0CE7DC9A5F3B48D8FFE42A59EFDD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NetworkDiscovery_2_ReceiveResponseAsync_m877EAD70C9E5529F68AC7CF33FAB575F41798848 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NetworkDiscovery_2_ReceiveBroadcastAsync_m41ED7C6E08C5F5A1400047775038E5D45C3A6D30 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NetworkDiscovery_2_ListenAsync_m1D4C6CF6AEE3BF9DF38672C27BD9D6E1AA9935CC },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CListenAsyncU3Ed__25_t3DC79F3D72FBC7ADF35AA50733D15BF1C4EA1C91 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CListenAsyncU3Ed__25_t3DC79F3D72FBC7ADF35AA50733D15BF1C4EA1C91_m6FA866CA9E70FD6392D1AF7ACB7E61ECAF39ED0A },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CListenAsyncU3Ed__25U26_tF985C03E9AA523D1625C2AB34ED39E1EC3A4AD39 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CReceiveResponseAsyncU3Ed__26_tB428DF7305A2890C5F8EC3287F52BD6E595A7659 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CReceiveResponseAsyncU3Ed__26_tB428DF7305A2890C5F8EC3287F52BD6E595A7659_m580F5CAA504286A9FA226C4DEB4640CD22898E4E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CReceiveResponseAsyncU3Ed__26U26_t766C8FFD624590E2C0F257EFD4D839BB08C9D726 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CReceiveBroadcastAsyncU3Ed__27_tB8BE6E7118C2E4765B175EDC3ECA12FE2AD94DB6 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_Start_TisU3CReceiveBroadcastAsyncU3Ed__27_tB8BE6E7118C2E4765B175EDC3ECA12FE2AD94DB6_m7C89B5455F51836427A418707B3CC16729461816 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CReceiveBroadcastAsyncU3Ed__27U26_t507388EBC07CBE1F55A00863BDF96F4A80617228 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CListenAsyncU3Ed__25_t9A68CE3A274DCF69AB861FEE1642D1FDE7EA83AF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CListenAsyncU3Ed__25_t9A68CE3A274DCF69AB861FEE1642D1FDE7EA83AF_mB1225D41777BFA91F09A13AC6BB134F84BF9CD26 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CListenAsyncU3Ed__25U26_t36BAAAF3C3118E4740B275CD6DFB7D97D558FBC7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CReceiveBroadcastAsyncU3Ed__27_t10A63B6C41C741CFC4A09AC34B84DB21F7EA9CFF },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_NetworkDiscovery_2_t1BCA473F3DB899C4A1401640BA06DB71EF2CBB3B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tA5F6339168CD98D4324E4938379288C303ABF23A_TisU3CReceiveBroadcastAsyncU3Ed__27_t10A63B6C41C741CFC4A09AC34B84DB21F7EA9CFF_mA7DB334F95BBCE42745D900ADF348940AEF77666 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CReceiveBroadcastAsyncU3Ed__27U26_t928EA65EAF0AD8ECED78FC6CFD1E09EC60606295 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NetworkDiscovery_2_ReadAndCheckHeader_m92F0F1BACC2D8DFFC9A11F81F707CDE745C1DF17 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_MessageType_t383C73FEAA99E329DAE3245E4D1880F5BEB76536 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_FastBufferReader_ReadNetworkSerializable_TisTBroadCast_tB3777C6881B8F28B18285E02CEC31F435748D767_mBE784F922A81A8A781260BD0ABFFFBD16E585B6B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TBroadCastU26_tAF1C42213BF651236219D93983EB22E8E8C99332 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NetworkDiscovery_2_ProcessBroadcast_m551B9ACB4D6BAB42ABC42BF39743EE22ACE3BE7F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TBroadCast_tB3777C6881B8F28B18285E02CEC31F435748D767 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TResponseU26_t7579AB60A20ED86DC10444E828AF15C92BC59AA8 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NetworkDiscovery_2_WriteHeader_m7FF98B0BCEC5A35C69DD467E0D729D2BF92AA936 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_FastBufferWriter_WriteNetworkSerializable_TisTResponse_tD34E46FC3A6F44BDE311215F49C6E7018A6F8780_m70DD03FCD19DFFA90589F7CD94B644C4D06253FF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t6207F4E776722AC1BA32517028D30E6E3071F48E_TisU3CReceiveBroadcastAsyncU3Ed__27_t10A63B6C41C741CFC4A09AC34B84DB21F7EA9CFF_m32972BBEF18C73A931B3E6DFD5F8A005CCD28CB8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TResponse_tD34E46FC3A6F44BDE311215F49C6E7018A6F8780 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CReceiveResponseAsyncU3Ed__26_t36FA9966E01018A50EF90AE8DF562CC14D43072F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_NetworkDiscovery_2_t9FEB08F5FDFCA0D08855DC605E599E053FBDF1E0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tA5F6339168CD98D4324E4938379288C303ABF23A_TisU3CReceiveResponseAsyncU3Ed__26_t36FA9966E01018A50EF90AE8DF562CC14D43072F_m7830F04B58EEBB81AC26A5BEE8EEB8DC68ECEA9F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CReceiveResponseAsyncU3Ed__26U26_t1D1187B762CEDAF6EF33F958EB779926A42474FB },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NetworkDiscovery_2_ReadAndCheckHeader_m596A60786432159F0A5F692B2E0C6C58D905A5EA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_MessageType_t4C29E8B829FB8899073D2B25B87370AF9B768A7B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_FastBufferReader_ReadNetworkSerializable_TisTResponse_tECFA878A9B74E40DAE0A16B096FFDB2439507D8C_m61E9230FB26906CF06FD672A73823756A291CDE3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TResponseU26_t2526E0DD55AECFD9220D649BC5DCC9884A1BE864 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_NetworkDiscovery_2_ResponseReceived_mC80F041BBB072715FB1D22F129EAE1AE2D27512D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TResponse_tECFA878A9B74E40DAE0A16B096FFDB2439507D8C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_BufferSerializer_1_t82C02169E4D2A7BA9D74FAC7F9DFE940295233D3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_BufferSerializer_1_SerializeValue_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mA0C0A56167C2DA60C296BB000685C872247250BB },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_BufferSerializer_1_t82C02169E4D2A7BA9D74FAC7F9DFE940295233D3 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_BufferSerializer_1_SerializeValue_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mFD7CACC8033A35A1D991CE6613F6DBF7B61F08EF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_BufferSerializer_1_SerializeValue_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m6EF37A7435796BEACEFECC17918BF4C141ABCB44 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_BufferSerializer_1_tC04D5DEA4A2A0F439098DB5FB8C5F61C75A9FE5D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_BufferSerializer_1_SerializeValue_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mE2346B6665F74AFEFF6DCD8E9BD48E87C4A8443F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_BufferSerializer_1_tC04D5DEA4A2A0F439098DB5FB8C5F61C75A9FE5D },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_BufferSerializer_1_SerializeValue_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m8FB1EF4AC0D965D848D2A57D19CF9E0C9BB64B0C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_FixedQueue_1_t3FD6F46EBF1AD94E17669D8E6AFB1AD3C5A32E50 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_tEA90C89013DDDEFB1A6936E63B9C1F26BC62CEE7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_tEA90C89013DDDEFB1A6936E63B9C1F26BC62CEE7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tBFFAAEF9CF15C79568CDFCC1C52104EFB50C288E },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_NetcodeU20forU20GameObjectsU20CommunityU20Extensions_CodeGenModule;
+const Il2CppCodeGenModule g_NetcodeU20forU20GameObjectsU20CommunityU20Extensions_CodeGenModule = 
+{
+	"Netcode for GameObjects Community Extensions.dll",
+	123,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	8,
+	s_rgctxIndices,
+	69,
+	s_rgctxValues,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
