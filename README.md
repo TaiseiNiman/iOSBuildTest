@@ -1,0 +1,2 @@
+# iOSBuildTest
+ワークショップシミュレーションのiOSビルドです。macとxcodeが必要
